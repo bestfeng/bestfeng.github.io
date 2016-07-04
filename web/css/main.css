@@ -1,0 +1,191 @@
+/*通用样式*/
+
+body {
+    font-family: 微软雅黑;background:#FC3;
+	
+}
+ul{
+	width:970px;
+	height:100px;
+	clear:both;
+	background-color:#F63;
+	border-bottom:1px solid #666;
+	}
+li{
+	display:block;
+	float:left;
+	margin:40px 80px;
+}
+
+/*全局性导航条样式*/
+
+.head-nav {
+    height: 48px;
+    border-top: 4px #0D65B2 solid;
+    border-bottom: 1px #eee solid;
+}
+
+.glyphicon {
+    color: #0D65B2;
+    font-size: 24px;
+}
+
+.head-nav-wrap {
+    width: 980px;
+    margin: 0 auto;
+    height: 48px;
+    line-height: 48px;
+}
+
+.home {
+    height: 48px;
+    width: 200px;
+    float: left;
+}
+
+.site-nav {
+    height: 48px;
+    width: 600px;
+    text-align: right;
+    float: right;
+}
+
+.site-nav span {
+    margin: 0 10px;
+}
+
+
+/*新闻专题标题及摘要部分*/
+
+.topic-abs {
+    background-color: #F90;
+    border-bottom: 4px #0D65B2 solid;
+}
+
+.topic-wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.topic-title {
+    background-image: url(../images/topic-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 30px;
+	background-color:#F90;
+}
+
+.topic-title h1 {
+    font-size: 40px;
+    color: #0D65B2;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+.topic-title p {
+    font-size: 16px;
+}
+
+.abs {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.abs p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+
+/*专题主体部分样式*/
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 22px;
+    background-image: url(../images/h2-bg.png);
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.news-list .summary {
+    line-height: 1.8;
+}
+
+.news-list .news-meta {
+    text-align: right;
+}
+
+
+/*右侧图片样式*/
+
+.image {
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.image p {
+    margin: 0;
+}
+
+.image img {
+    width: 100%;
+    /*height: 170px;*/
+}
+
+.image .bg {
+    background: #000000;
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.image .pic-title {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.image a {
+    color: #fff;
+    opacity: 1;
+}
+
+
+/*百度新闻样式*/
+
+div[style="margin-bottom:10px"],
+div[style="margin-top:5px;font-size:12px"] {
+    display: none;
+}
+
+.baidu {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/*新浪微博样式*/
+
+.weibo-list-source {
+    display: none;
+}
+
