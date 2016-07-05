@@ -1,14 +1,14 @@
 /*通用样式*/
 
 body {
-    font-family: 微软雅黑;background:#FC3;
+    font-family: 微软雅黑;
 	
 }
 ul{
 	width:970px;
 	height:100px;
 	clear:both;
-	background-color:#F63;
+	background-color: #CCC;
 	border-bottom:1px solid #666;
 	}
 li{
@@ -16,7 +16,9 @@ li{
 	float:left;
 	margin:40px 80px;
 }
-
+.last{
+		padding-top:10px;
+}
 /*全局性导航条样式*/
 
 .head-nav {
@@ -58,7 +60,7 @@ li{
 /*新闻专题标题及摘要部分*/
 
 .topic-abs {
-    background-color: #F90;
+    
     border-bottom: 4px #0D65B2 solid;
 }
 
@@ -72,7 +74,7 @@ li{
     background-repeat: no-repeat;
     padding-left: 30px;
     margin-bottom: 30px;
-	background-color:#F90;
+	
 }
 
 .topic-title h1 {
@@ -102,6 +104,7 @@ li{
 .container {
     width: 1000px;
     margin: 20px auto;
+	
 }
 
 h2 {
@@ -114,12 +117,19 @@ h2 {
 
 .news-list .summary {
     line-height: 1.8;
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
 }
 
 .news-list .news-meta {
     text-align: right;
 }
-
+.more{
+	border-left:1px solid #000;
+	border-bottom:1px solid #000;
+	padding-top:20px;
+}
+		
 
 /*右侧图片样式*/
 
