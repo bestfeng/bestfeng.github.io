@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>made a text</title>
+<style type="text/css">
+.active{background:yellow;}
+</style>
+<script type="text/javascript">
+window.onload=function()
+{
+	var attr=[1,2]
+	var oUl=document.getElementById('ul1');
+	var aLi=oUl.getElementsByTagName('li');
+	var aBtn=document.getElementsByTagName('img');
+
+	for (var i = 0; i < aLi.length; i++) {
+		aLi[i].index=i;
+		aLi[i].onclick=function()
+		{
+			for (var i = 0; i < aLi.length; i++) {
+				aLi[i].className='';
+			}
+			this.className='active';
+			aBtn[0].src='images/content/hot_list_pic'+attr[this.index]+'.gif';
+			aBtn[1].src='images/content/hot_list_pic'+attr[this.index]+'.gif';
+			aBtn[2].src='images/content/hot_list_pic'+attr[this.index]+'.gif';
+			aBtn[3].src='images/content/hot_list_pic'+attr[this.index]+'.gif';
+		}
+	};
+}
+</script>
+</head>
+<body>
+	<ul id="ul1">
+	    <li class="active">a</li>
+	    <li>b</li>
+	</ul>
+	<img  src="images/content/hot_list_pic1.gif" alt=""/>
+	<img  src="images/content/hot_list_pic1.gif" alt=""/>
+	<img  src="images/content/hot_list_pic1.gif" alt=""/>
+	<img  src="images/content/hot_list_pic1.gif" alt=""/>
+</body>
+</html>
